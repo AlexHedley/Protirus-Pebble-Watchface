@@ -28,7 +28,7 @@ static void update_time() {
   // Display this time on the TextLayer
   text_layer_set_text(s_time_layer, buffer);
   
-  strftime(s_date_text, sizeof(s_date_text), "%B %e", tick_time);
+  strftime(s_date_text, sizeof(s_date_text), "%b %e", tick_time);
   text_layer_set_text(s_date_layer, s_date_text);
 }
 
@@ -45,7 +45,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_color(s_time_layer, GColorWhite);
   text_layer_set_text(s_time_layer, "00:00");
   
-  s_date_layer = text_layer_create(GRect(15, 130, 144, 168));
+  s_date_layer = text_layer_create(GRect(17, 130, 144, 168));
   text_layer_set_text_color(s_date_layer, GColorWhite);
   text_layer_set_background_color(s_date_layer, GColorClear);
   
