@@ -1,0 +1,37 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "alex.hedley@me.com",
+    "longName": "Protirus",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/WatchFace (28).png",
+                "menuIcon": true,
+                "name": "Protirus_Watchface_28",
+                "type": "png"
+            },
+            {
+                "file": "images/Protirus WatchFace.png",
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
+            },
+            {
+                "file": "fonts/OpenSans-Bold.ttf",
+                "name": "FONT_OPENSANS_BOLD_16",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Protirus",
+    "uuid": "238db69e-a82d-49a1-a683-042d248872b4",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
